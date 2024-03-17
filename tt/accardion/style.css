@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accardions{
+    max-width: 1440px;
+    margin: 250px 600px;
+    border: 1px solid #0e0d0d;
+    text-align: center;
+    position: fixed;
+}
+.btn{
+    font-size: 16px;
+    padding: 10px 86px;
+    border:1px solid #100e0e;
+    background-color: #0d5f5f;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #18c4c4;
+    color: #0e0d0d;
+}
+.text{
+    padding: 12px;
+    display: none;
+}
+
+.accardion1.active .text{
+    display: block;
+}
